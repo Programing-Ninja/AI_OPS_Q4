@@ -1,4 +1,5 @@
 [core]
-    remote = loc_remote
-['remote "loc_remote"']
-    url = /home/harshvardhan/tmp/dvc_storage
+    remote = ssh_remote
+['remote "ssh_remote"']
+    url = ssh://dvcshare@100.88.28.106/home/dvcshare/dvcstore
+    user = dvcshare
