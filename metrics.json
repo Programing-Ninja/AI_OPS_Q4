@@ -1,0 +1,8 @@
+{
+  "run_id": "9fc26bff1ad44dc190d6720eef731fe8",
+  "git_commit": "9fc065d50aca49511538d167936ab3b594fc8f0f",
+  "data_md5": "ab3353d41bd7a24a20a31f29b64e3b3c.dir",
+  "seed": 42,
+  "test_loss": 0.0954269252717495,
+  "test_accuracy": 0.9698
+}
