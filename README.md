@@ -1,7 +1,7 @@
 Everything needed to reproduce the Staging model is in this repository.
-And the explanation for the Reproducibility Verification is in `PartnerB_Reproduction.md`
 No out-of-band setup instructions are required.
 
+And the explanation for the Reproducibility Verification is in `PartnerB_Reproduction.md`
 
 ```bash
 git clone <repo-url>
