@@ -1,1 +1,6 @@
 /data
+mlflow.db
+mlartifacts/
+mlruns/
+__pycache__/
+metrics.json
