@@ -1,5 +1,5 @@
 [core]
-    remote = ssh_remote
-['remote "ssh_remote"']
-    url = ssh://dvcshare@100.88.28.106/home/dvcshare/dvcstore
-    user = dvcshare
+    remote = r2
+['remote "r2"']
+    url = s3://aiops-q4-dvc/dvcstore
+    endpointurl = https://69146e9b6c23c4efc3631096e6f80f40.r2.cloudflarestorage.com
