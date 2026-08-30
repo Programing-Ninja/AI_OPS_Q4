@@ -37,7 +37,7 @@ def main():
     client.set_tag(args.run_id, "reproduction_status", "matched" if matched else "mismatch")
     client.set_tag(args.run_id, "reproduced_accuracy", f"{args.your_accuracy:.6f}")
     client.set_tag(args.run_id, "reproduction_delta", f"{delta:.8f}")
-    client.update_run(args.run_id, description=verdict)
+    client.set_tag(args.run_id, "mlflow.note.content", verdict)
 
     print(verdict)
 
